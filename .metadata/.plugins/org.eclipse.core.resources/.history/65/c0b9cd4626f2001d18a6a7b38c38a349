@@ -1,0 +1,24 @@
+package com.student.courses.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.student.courses.entity.Course;
+
+@Service
+public class CourseServiceImpl implements CourseService {
+
+	List<Course> list;
+	
+	public CourseServiceImpl()
+	{
+		
+	}
+	@Override
+	public List<Course> getCourses() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.student.courses.services;
+
+import java.util.List;
+
+import com.student.courses.entity.Course;
+
+public class CourseServiceImpl implements CourseService {
+
+	@Override
+	public List<Course> getCourses() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

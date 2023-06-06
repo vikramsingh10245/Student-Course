@@ -1,0 +1,10 @@
+package com.student.courses.services;
+
+import java.util.List;
+
+import com.student.courses.entity.Course;
+
+public interface CourseService {
+
+	public List<Course> getCourses();
+}
